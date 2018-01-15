@@ -457,11 +457,11 @@ textarea {
   .hero h4 {
     font-family: IRANSans;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 0; }
     @media only screen and (min-device-width: 20em) and (max-device-width: 30em) {
       .hero h4 {
-        font-size: 1.7rem; } }
+        font-size: 1.5rem; } }
     @media only screen and (min-width: 30.1em) {
       .hero h4 {
         font-size: 2rem; } }
@@ -474,6 +474,32 @@ textarea {
     @media only screen and (min-width: 81.25em) {
       .hero h4 {
         font-size: 2rem; } }
+  .hero #count-down {
+    direction: rtl;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.211765);
+    padding: 2rem 5rem;
+    border-radius: 10px; }
+    @media only screen and (min-device-width: 20em) and (max-device-width: 30em) {
+      .hero #count-down {
+        font-size: 1.5rem;
+        padding: 2rem 5rem; } }
+    @media only screen and (min-width: 30.1em) {
+      .hero #count-down {
+        font-size: 1.5rem;
+        padding: 2rem 5rem; } }
+    @media only screen and (min-width: 48em) {
+      .hero #count-down {
+        font-size: 2rem;
+        padding: 2rem 10rem; } }
+    @media only screen and (min-width: 62.5em) {
+      .hero #count-down {
+        font-size: 2rem;
+        padding: 2rem 10rem; } }
+    @media only screen and (min-width: 81.25em) {
+      .hero #count-down {
+        font-size: 2rem;
+        padding: 2rem 10rem; } }
   .hero .footer_social {
     margin: 0;
     padding: 0;
