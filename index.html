@@ -15,7 +15,6 @@
       <img src="assets/img/logo.png" width="272"/>
       <h2>گالری موسیقی کوک</h2>
       <h4>مرکز تخصصی فروش انواع پیانو و لوازم موسیقی در بندرعباس</h4>
-      <p id="count-down"></p>
       <ul class="footer_social">
         <li class="instagram">
           <a href="https://www.instagram.com/kookgallery.ir/">
@@ -47,35 +46,5 @@
         </li>
       </ul>
     </div>
-    <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Feb 20, 2018 00:00:00").getTime();
-
-      // Update the count down every 1 second
-      var countdownfunction = setInterval(function () {
-
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Output the result in an element with id="demo"
-        document.getElementById("count-down").innerHTML = days + " روز " + hours + " ساعت "
-          + minutes + " دقیقه " + seconds + " ثانیه ";
-
-        // If the count down is over, write some text 
-        if (distance < 0) {
-          clearInterval(countdownfunction);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-    </script>
   </body>
 </html>
